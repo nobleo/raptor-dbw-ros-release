@@ -1,1 +1,1 @@
-{"base": "4e790a0", "parent": "debian/melodic/can_dbc_parser", "previous": "d9c24d8", "trim": "", "trimbase": ""}
+{"trimbase": "", "parent": "debian/melodic/can_dbc_parser", "previous": "a45ec6e", "base": "2f9ef6d", "trim": ""}
