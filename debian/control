@@ -1,0 +1,13 @@
+Source: ros-noetic-can-dbc-parser
+Section: misc
+Priority: optional
+Maintainer: New Eagle <jlodi@neweagle.net>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-can-msgs, ros-noetic-catkin, ros-noetic-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-can-dbc-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-can-msgs, ros-noetic-roscpp
+Description: DBC file interface.
+ Read a DBC file, unpack CAN messages and convert to engineering units, pack values into CAN messages for publishing.
